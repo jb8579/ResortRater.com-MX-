@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ----------------
+	Button
+------------------- */
+
+button.order-btn {
+    border: none !important;
+    outline: none !important;
+    border-radius: 3px;
+    display: none;
+}
+
+button.order-btn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    background: none;
+    padding: 12px 24px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    color: #ffffff;
+    transition: 1s;
+	word-spacing: 1px;
+}
+
+button.order-btn:hover {
+    color: black;
+    background: #3e3e3e;
+    transition: 1s;
+	color: white;
+    border: none;
+    outline: none;
+}
+
+button.btn-enrol:hover::before {
+    height: 0%;
+}
+
+button.btn-enrol::before {
+    height: 100px;
+}
+
+button.btn-enrol::before {
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+}
+
+button.order-btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: #1171ed;
+    z-index: -1;
+    transition: 1s;
+}
+
+
+
+/* -----------------------
+	Banner Section Start
+-------------------------- */
+.main-hero-section {
+    overflow-x: hidden;
+    background-image: url('../img/mexico-images/mexico-banner-01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    position: relative;
+    overflow-y: hidden;
+    z-index: 1;
+}
+
+.main-hero-section::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(to right, #046bd285, #046bd26b);
+}
+
+.banner-conrent-area {
+    position: absolute;
+    left: 0;
+    right: 30px;
+    top: 48%;
+    transform: translateY(-50%);
+}
+
+.banner-content h1 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    margin-top: 100px;
+    line-height: 80px;
+}
+
+.banner-content p {
+    font-size: 17px;
+    color: #ffffff;
+    margin-bottom: 35px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+
+.banner-form {
+    background: white;
+    padding: 30px;
+    margin: 80px;
+    border-radius: 20px;
+}
+
+h2.form-heading {
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 15px;
+    letter-spacing: 0.2px;
+}
+
+.banner-form label {
+    color: #222020e6;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #cccccc52;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #a4a4a9;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    outline: 0;
+}
+
+textarea#subject {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    color: #a4a4a9;
+}
+
+input[type=submit] {
+    background-color: #1171ed;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    font-weight: 600;
+    font-family: 'Roboto';
+    letter-spacing: 0.4px;
+    padding: 8px;
+    margin-top: 10px;
+}
+/* -----------------------
+	Banner Section End
+-------------------------- */
+
+
+
+/* -----------------------
+	Hotel-01 Section Start
+-------------------------- */
+.hotel-section {
+    padding: 120px 0px;
+}
+
+h2.hotel-heading-right {
+    font-size: 34px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+    line-height: 50px;
+    margin-top: -10px;
+}
+
+.hotel-description-right {
+    font-family: 'Urbanist', sans-serif;
+    color: #9d9191;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 35px;
+    font-weight: 400;
+    margin-right: 100px;
+    text-align: justify;
+}
+
+/* -----------------------
+	Hotel-01 Section End
+-------------------------- */
+
+
+
+/* -------------------------------
+	Hotel Scroll-01 Section Start
+----------------------------------- */
+.hotel-scroll-section-01 #news-slider-01{
+    margin-top: 18px;
+}
+.hotel-scroll-section-01 #news-slider-02{
+    margin-top: 18px;
+}
+.hotel-scroll-section-01 #news-slider-03{
+    margin-top: 18px;
+}
+.hotel-scroll-section-01 #news-slider-04{
+    margin-top: 18px;
+}
+
+.hotel-scroll-section-01 h2 {
+    font-size: 34px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+    line-height: 50px;
+    margin-top: -10px;
+}
+
+.hotel-scroll-section-01 .post-slide {
+    background: #fff;
+    margin: 20px 10px 40px;
+    border-radius: 15px;
+    padding-top: 1px;
+    box-shadow: 0px 14px 18px -9px #bbcbd8;
+    cursor: pointer;
+}
+
+.hotel-scroll-section-01 .post-slide .post-img {
+    position: relative;
+    overflow: hidden;
+    margin: 0px;
+}
+
+.hotel-scroll-section-01 .post-slide .post-img img{
+    width: 100%;
+    height: auto;
+    transform: scale(1,1);
+    transition:transform 0.2s linear;
+}
+
+.hotel-scroll-section-01 .post-slide:hover .post-img img{
+    transform: scale(1.1,1.1);
+}
+
+.hotel-scroll-section-01 .post-slide .over-layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background: linear-gradient(-45deg, #0d6efd61 0%, rgb(18 42 134 / 18%) 100%);
+    transition: all 0.50s linear;
+}
+
+.hotel-scroll-section-01 .post-slide:hover .over-layer{
+    opacity:1;
+    text-decoration:none;
+}
+
+a.over-layer {
+    text-decoration: none !important;
+}
+
+.hotel-scroll-section-01 .post-slide .over-layer i{
+    position: relative;
+    top:45%;
+    text-align:center;
+    display: block;
+    color:#fff;
+    font-size:35px;
+}
+
+.hotel-scroll-section-01 .post-slide .post-content {
+    background: #fff;
+    padding: 2px 20px 40px;
+}
+
+.hotel-scroll-section-01 .post-slide .post-title a {
+    color: #333;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none !important;
+}
+
+.hotel-scroll-section-01.post-slide .post-title a:hover{
+    text-decoration: none !important;
+    color:#3498db;
+}
+
+.hotel-scroll-section-01 .post-slide .post-description{
+    line-height:24px;
+    color:#808080;
+    margin-bottom:25px;
+}
+
+.hotel-scroll-section-01 .post-slide .post-date{
+    color:#a9a9a9;
+    font-size: 14px;
+}
+
+.hotel-scroll-section-01 .post-slide .post-date i{
+    font-size:20px;
+    margin-right:8px;
+    color: #CFDACE;
+}
+
+.hotel-scroll-section-01 .post-slide .read-more {
+    padding: 7px 20px;
+    float: right;
+    font-size: 13px;
+    background: #1171ed !important;
+    color: #ffffff;
+    box-shadow: 0px 10px 20px -10px #1171ed80 !important;
+    text-transform: capitalize;
+    font-family: 'Roboto';
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: 500;
+    display: none;
+}
+
+.hotel-scroll-section-01 .post-slide .read-more:hover{
+    background: #3498db;
+    text-decoration:none;
+    color:#fff;
+}
+
+.owl-pagination {
+	text-align: center;
+}
+
+.hotel-scroll-section-01 .owl-theme .owl-controls .owl-page span {
+    width: 12px !important;
+    height: 12px !important;
+    background: none !important;
+    border: 2px solid #1171ed !important;
+}
+
+@media only screen and (max-width:1280px) {
+    .hotel-scroll-section-01 .post-slide .post-content{
+        padding: 0px 15px 25px 15px;
+    }
+}
+/* ----------------------------------
+	Hotel Scroll-01 Section End
+----------------------------------- */
+
+
+
+/* -----------------------
+	Hotel-Right Section Start
+-------------------------- */
+.hotel-section-left{
+	padding: 120px 0px;
+}
+
+.row.w-100.row-left {
+    --bs-gutter-x: 0rem !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    overflow-x: hidden;
+}
+
+h2.hotel-heading-left {
+	font-size: 34px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+    line-height: 50px;
+    margin-top: -10px;
+    margin-left: 100px;
+}
+
+.hotel-description-left {
+    font-family: 'Urbanist', sans-serif;
+    color: #9d9191;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 35px;
+    font-weight: 400;
+    margin-left: 100px;
+    text-align: justify;
+    margin-right: 15px;
+}
+
+.hotel-section-left button.order-btn.btn-enrol {
+    margin-left: 100px;
+}
+
+/* ----------------------------
+	Hotel-Right Section End
+-------------------------------- */
+
+
+
+/* --------------------------
+	Footer Section Start
+---------------------------- */
+.footer{
+	padding: 40px 0px 30px 0px;
+}
+
+.footer-btn-group {
+    text-align: center;
+}
+
+button.footer-btn {
+    outline: none;
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 600;
+	padding: 0px 15px;
+}
+
+
+button.footer-btn.wow.fadeInUp > a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* --------------------------
+	Footer Section End
+---------------------------- */
+
+
+
+/* -- Modal PopUp Start -- */
+h2.modal-title {
+    font-weight: 700;
+    font-size: 28px;
+    font-family: 'Roboto';
+    margin: 8px 0px;
+}
+
+h3.footer-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: #383838;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+p.footer-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #7a7a7a;
+    font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0.4px;
+	word-spacing: 1px;
+}
+
+ul.list-icon {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.list-icon li {
+    display: flex;
+    align-items: center;
+    margin: 15px 20px;
+    color: #7a7a7a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 20px;
+}
+
+ul.list-icon li .icon {
+    width: 25px;
+    height: 20px;
+    border-radius: 100%;
+    display: inline-block;
+    position: relative;
+    margin-right: -8px;
+    min-width: 30px;
+    font-size: 20px;
+    margin-top: -2px;
+}
+
+span.icon.background-transparent i {
+    font-size: 15px;
+}
+
+.btn-close {
+    padding: 20px 30px !important;
+	outline: none !important;
+}
+
+.btn-close:focus {
+    box-shadow: none !important;
+}
+
+button.btn.btn-danger {
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+/* -- Modal PopUp End -- */
+
+
+
+
+/* ----------------------
+	Go Back Button Start
+------------------------- */
+
+.to-top {
+	background: #046bd2;
+	position: fixed;
+	padding: 6px 8px;
+	right: 32px;
+	display: flex;
+	transition: all .4s;
+	z-index: 1;
+}
+.to-top.active {
+    bottom: 85px;
+    pointer-events: auto;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.to-top i{
+	display: inline-block;
+	font-size: 18px;
+	color: white;
+}
+
+/* ----------------------
+	Go Back Button End
+------------------------- */

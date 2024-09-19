@@ -1,0 +1,224 @@
+@media only screen and (max-width: 375px) and (min-width: 346px) {
+}
+
+@media only screen and (max-width: 544px) and (min-width: 375px) {
+    
+}
+
+@media only screen and (max-width: 555px) and (min-width: 376px) {
+}
+
+@media only screen and (max-width: 1358px) and (min-width: 1202px) {
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 993px) {
+}
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 300px) {
+	
+	/* ---------- Banner Start --------- */
+	.main-hero-section {
+		height: 800px;
+	}
+	
+	.banner-conrent-area {
+		position: absolute;
+		left: 0;
+		right: 0px;
+		top: 45%;
+		transform: translateY(-50%);
+	}
+	
+	.banner-content h1 {
+		font-size: 38px;
+		line-height: 50px;
+		margin-bottom: 15px;
+	}
+	
+	.banner-content p {
+		font-size: 15px;
+		line-height: 25px;
+	}
+	
+	.banner-form {
+		padding: 20px;
+		margin: 15px;
+	}
+	/* ---------- Banner End --------- */
+	
+	
+	
+	/* ---------- Hotel-01 Section Start --------- */
+	.hotel-section {
+		padding: 60px 0px;
+	}
+	
+	img.hotel-img-01 {
+		width: 100%;
+		margin: 0px 12px;
+	}
+	
+	h2.hotel-heading-right {
+		font-size: 28px;
+		margin-bottom: 20px;
+		line-height: 40px;
+		margin-top: 15px;
+	}
+	
+	.hotel-description-right {
+		font-size: 14px;
+		line-height: 25px;
+		margin-bottom: 35px;
+		margin-right: -15px;
+	}
+	/* ---------- Hotel-01 Section End --------- */
+	
+	
+	
+	
+	/* ---------- Hotel Scroll-01 Section Start --------- */
+	.hotel-scroll-section-01 h2 {
+		font-size: 28px;
+		margin-bottom: 5px;
+		line-height: 38px;
+	}
+	/* ---------- Hotel Scroll-01 Section End --------- */
+	
+	
+	
+	/* ---------- Hotel-02 Section End --------- */
+	.hotel-section-left {
+		padding: 40px 0px 60px 0px;
+	}
+	
+	img.hotel-img-02 {
+		width: 100%;
+		margin-left: 12px;
+		padding-right: 24px;
+		margin-top: 0px;
+	}
+	
+	h2.hotel-heading-left {
+		margin-left: 0px;
+		font-size: 28px;
+		line-height: 40px;
+		margin-bottom: 20px;
+		margin-top: 15px;
+	}
+	
+	p.hotel-description-left {
+		margin-left: 0px;
+		font-size: 14px;
+		line-height: 25px;
+		margin-bottom: 35px;
+	}
+	
+	.hotel-section-left button.order-btn.btn-enrol {
+		margin-left: 0;
+	}
+	/* ---------- Hotel-02 Section End --------- */
+	
+	
+	
+	/* ---------- Go Back Button Start --------- */
+	.to-top {
+		background: #046bd2;
+		position: fixed;
+		padding: 5px 6px;
+		right: 14px;
+		display: flex;
+		transition: all .4s;
+		z-index: 1;
+	}
+	.to-top i {
+		display: inline-block;
+		font-size: 17px;
+		color: white;
+	}
+	.to-top.active {
+		bottom: 15px;
+	}
+	/* ---------- Go Back Button End --------- */
+}
+
+
+
+@media only screen and (max-width: 767px) and (min-width: 300px) {
+	.row.w-100.row-left {
+		flex-direction: column-reverse;
+	}
+	
+	.footer {
+		padding: 20px 0px 30px 0px;
+	}
+	button.footer-btn {
+		font-size: 15px;
+		padding: 0px 5px;
+	}
+	
+	/* ---------- Modal Popup --------- */
+	h3.footer-title {
+		font-size: 18px;
+		text-align: left;
+	}
+	
+	p.footer-text {
+		font-size: 15px;
+		line-height: 22px;
+		letter-spacing: 0.2px;
+		word-spacing: 0px;
+		text-align: left;
+	}
+	
+	ul.list-icon li {
+		font-size: 14px;
+		letter-spacing: 0.4px;
+		line-height: 22px;
+		text-align: left;
+		margin: 15px 0px;
+	}
+	
+	ul.list-icon li .icon {
+		margin-top: -10px;
+	}
+	
+	span.icon.background-transparent i {
+		font-size: 12px;
+	}
+	/* -- Modal Popup --- */
+}
+
+
+
+
+@media only screen and (max-width: 375px) and (min-width: 300px) {
+	
+}
+
+
+
+
+@media only screen and (max-width: 530px) and (min-width: 376px) {
+	
+}
+
+
+
+@media only screen and (max-width: 631px) and (min-width: 531px) {
+	
+}
+
+
+
+@media only screen and (max-width: 832px) and (min-width: 632px) {
+	
+}
+
+
+
+@media only screen and (max-width: 1222px) and (min-width: 999px) {
+
+	
+}
